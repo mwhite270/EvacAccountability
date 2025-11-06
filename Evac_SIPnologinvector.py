@@ -40,7 +40,7 @@ sitename = wbs.range('B7').value #Site selected in Excel sheet
 
 
 ######################################
-#Commenting out below code that was used to scrape the badge reader online log system. This would requires access to The Company's
+#Commenting out below code that was used to scrape the badge reader online log system. This would require access to The Company's
     #system that is not possible or permitted.
 #The accompanying spreadsheet has dummy data already added.
 
@@ -375,5 +375,6 @@ wbs.range('B20').value = time.strftime("%m/%d/%Y %H:%M") #Adding a timestamp of 
 # #Run save macro
 # print('Answer save prompt in Excel. You may close this window after doing so.')
 # wb.macro('SaveReport')()
+
 
 # sys.exit()
