@@ -50,9 +50,9 @@ This script is designed to be run with the Excel workbook open. Typical workflow
     - It asks if you want to open in Read-Only. It is recommended to do so.
   2. On the StartHere tab, select the Plant from the dropdown.
     - Use Plant1 for the demo.
-  3. On the StartHere tab, enter the incident time and enter the incident time.
+  4. On the StartHere tab, enter the incident time and enter the incident time.
     - Use the default time for the demo.
-  4. Run: `Evac_SIPnologinvector.py` 
+  5. Run: `Evac_SIPnologinvector.py` 
 
 - A note on the Excel file:
     - There are no passwords for the sheets. They have just been locked to prevent accidental overwriting. 
