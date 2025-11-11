@@ -1,11 +1,25 @@
-Evac_SIPnologinvector
-======================
+Project Description
+======================================
+This python script was originally made for use by a large chemical company. It was built to scrape the badge logs from a SaaS website the company used. It then used Excel to generate an accountability report.
+
+The code was frozen and distributed as an executable file (.exe) that could be used by any employee (no Python 
+
+The result is that what once took a team of people 30+ minutes, now takes 1 person ~ 5 minutes.
+
+Jupyter/Colab Notebook (.ipynb) Readme
+======================================
+The notebook (built in Google Colab) in this repository was created to provide a visualization of how the code works.
+
+The .py file in the repository can be run with the provided Excel workbook.
+
+Python Script (.py) Readme
+======================================
 
 Summary
 -------
-This repository contains `Evac_SIPnologinvector.py`, a script that processes roll-call / badge-reader exports and generates an Accountability / Shelter-in-Place (SIP) report in Excel using xlwings and pandas. The script reads data pasted into an accompanying Excel workbook (`Evac_Report_Toolvec.xlsm`), classifies personnel (e.g., "Never Mustered", "Mustered", "Badged After Incident", "No Badge Data"), and can enrich records from a security badge log (visitor badges -> phone number / name).
+The `Evac_SIPnologinvector.py` script process roll-call / badge-reader exports and generates an Accountability / Shelter-in-Place (SIP) report in Excel using xlwings and pandas. The script reads data pasted into an accompanying Excel workbook (`Evac_Report_Toolvec.xlsm`), classifies personnel (e.g., "Never Mustered", "Mustered", "Badged After Incident", "No Badge Data"), and can enrich records from a security badge log (visitor badges -> phone number / name).
 
-This copy of the script is sanitized for demo purposes and contains commented-out sections that originally performed web scraping to pull badge logs.
+This copy of the script is sanitized for demo purposes and contains commented-out sections that originally performed web scraping to pull badge logs. The provided Excel workbook has been populated with dummy data, since the web scraping and network file portions of the code are not usable without Company access.
 
 Features
 --------
