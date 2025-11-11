@@ -4,7 +4,7 @@ This python script was originally made for use by a large chemical company. It w
 
 The script was frozen and distributed as a .exe that could be used by any employee (no Python knowledge required).
 
-The result is that what once took a team of people 30+ minutes, now takes 1 person ~ 5 minutes.
+With this script, what once took a team of people 30+ minutes now takes 1 person < 5 minutes.
 
 Jupyter/Colab Notebook (.ipynb) Readme
 ======================================
